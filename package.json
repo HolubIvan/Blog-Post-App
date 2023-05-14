@@ -4,16 +4,17 @@
   "description": "",
   "main": "app.js",
   "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
     "nodemon": "^1.18.4"
   },
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha './specs/post.spec.js'"
   },
   "dependencies": {
     "async": "^2.6.1",
-    "bcrypt": "^1.0.3",
     "bluebird": "^3.5.0",
     "body-parser": "^1.18.3",
     "crypto": "^1.0.1",

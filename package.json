@@ -4,14 +4,12 @@
   "description": "",
   "main": "app.js",
   "devDependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0",
     "nodemon": "^1.18.4"
   },
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
-    "test": "mocha './specs/keys.spec.js'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "async": "^2.6.1",

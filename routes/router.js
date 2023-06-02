@@ -37,7 +37,7 @@ function authenticate(passport) {
             else {
                     res.render("index", { posts: posts });
             }
-        });
+        }).lean();
     });
 
     // Login View

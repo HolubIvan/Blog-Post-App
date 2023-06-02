@@ -209,6 +209,7 @@ a:hover {
 .small,
 small {
   font-size: 85%;
+  color: black;
 }
 
 .input-group .form-control:last-child,

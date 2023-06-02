@@ -20,7 +20,7 @@ PostSchema.virtual("publishedAt").get(function() {
 });
   
 PostSchema.virtual("publishedSince").get(function() {
-    return moment(this.createdAt).fromNow()
+    return moment(this.createdAt).fromNow();
 });
 
 // the schema is useless so far

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.11 on darwin)" generated="20230521 11:38:39.460" rpa="false" schemaversion="3">
+<suite id="s1" name="TestSuite" source="/Users/ivanholub/Desktop/Blog-Post-App/Tests/TestSuite.robot">
+<test id="s1-t1" name="TEST" line="5">
+<kw name="Log" library="BuiltIn">
+<arg>This is a sample test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230521 11:38:39.489" level="INFO">This is a sample test</msg>
+<status status="PASS" starttime="20230521 11:38:39.489" endtime="20230521 11:38:39.489"/>
+</kw>
+<status status="PASS" starttime="20230521 11:38:39.489" endtime="20230521 11:38:39.489"/>
+</test>
+<test id="s1-t2" name="TEST2" line="8">
+<kw name="Log" library="BuiltIn">
+<arg>This is my second test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230521 11:38:39.490" level="INFO">This is my second test</msg>
+<status status="PASS" starttime="20230521 11:38:39.490" endtime="20230521 11:38:39.490"/>
+</kw>
+<status status="PASS" starttime="20230521 11:38:39.490" endtime="20230521 11:38:39.490"/>
+</test>
+<test id="s1-t3" name="TEST3" line="11">
+<kw name="Log" library="BuiltIn">
+<arg>This is my second test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230521 11:38:39.491" level="INFO">This is my second test</msg>
+<status status="PASS" starttime="20230521 11:38:39.491" endtime="20230521 11:38:39.491"/>
+</kw>
+<status status="PASS" starttime="20230521 11:38:39.491" endtime="20230521 11:38:39.491"/>
+</test>
+<status status="PASS" starttime="20230521 11:38:39.462" endtime="20230521 11:38:39.491"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
